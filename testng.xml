@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AmbitonBox Test Suite">
+    <listeners>
+        <listener class-name="main.java.utils.SuitListener"></listener>
+    </listeners>
+    <test name="HomePage Automation">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="test.java.SampleTestAB"/>
+        </classes>
+    </test>
+</suite>
